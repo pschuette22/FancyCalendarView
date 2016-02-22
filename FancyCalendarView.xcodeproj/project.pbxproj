@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3967CE1C70D9C20051A5BA /* FCVMonthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3967CD1C70D9C20051A5BA /* FCVMonthModel.m */; };
 		CE553D261C6E2E2900E654E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D251C6E2E2900E654E5 /* main.m */; };
 		CE553D291C6E2E2900E654E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D281C6E2E2900E654E5 /* AppDelegate.m */; };
-		CE553D2C1C6E2E2900E654E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D2B1C6E2E2900E654E5 /* ViewController.m */; };
 		CE553D2F1C6E2E2900E654E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE553D2D1C6E2E2900E654E5 /* Main.storyboard */; };
 		CE553D321C6E2E2900E654E5 /* FancyCalendarView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE553D301C6E2E2900E654E5 /* FancyCalendarView.xcdatamodeld */; };
 		CE553D341C6E2E2900E654E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE553D331C6E2E2900E654E5 /* Assets.xcassets */; };
 		CE553D371C6E2E2900E654E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE553D351C6E2E2900E654E5 /* LaunchScreen.storyboard */; };
 		CE553D421C6E2E2900E654E5 /* FancyCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D411C6E2E2900E654E5 /* FancyCalendarViewTests.m */; };
 		CE553D4D1C6E2E2A00E654E5 /* FancyCalendarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D4C1C6E2E2A00E654E5 /* FancyCalendarViewUITests.m */; };
+		CE553D5F1C6E2EB500E654E5 /* Calendar_Day_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE553D5D1C6E2EB500E654E5 /* Calendar_Day_View.xib */; };
+		CE553D681C6E332100E654E5 /* FCVCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D661C6E332100E654E5 /* FCVCalendarViewController.m */; };
+		CE553D6D1C6E347000E654E5 /* FCVCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D6A1C6E347000E654E5 /* FCVCalendarDayView.m */; };
+		CE553D6E1C6E347000E654E5 /* FCVCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE553D6C1C6E347000E654E5 /* FCVCalendarMonthView.m */; };
+		CE83C8551C750EBD003A2889 /* FCVCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83C8541C750EBD003A2889 /* FCVCalendarView.m */; };
+		CEA89F591C6E55EE00A1BA1A /* Event_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA89F581C6E55EE00A1BA1A /* Event_View.xib */; };
+		CEA89F5C1C6E5AEF00A1BA1A /* FCVEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA89F5B1C6E5AEF00A1BA1A /* FCVEventView.m */; };
+		CEC3272F1C72746900CED2C9 /* FCVDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC3272E1C72746900CED2C9 /* FCVDayModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3967C31C70B9130051A5BA /* FCVConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCVConstants.h; sourceTree = "<group>"; };
+		CE3967CC1C70D9C20051A5BA /* FCVMonthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVMonthModel.h; sourceTree = "<group>"; };
+		CE3967CD1C70D9C20051A5BA /* FCVMonthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVMonthModel.m; sourceTree = "<group>"; };
 		CE553D211C6E2E2900E654E5 /* FancyCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE553D251C6E2E2900E654E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE553D271C6E2E2900E654E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE553D281C6E2E2900E654E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE553D2A1C6E2E2900E654E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE553D2B1C6E2E2900E654E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE553D2E1C6E2E2900E654E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE553D311C6E2E2900E654E5 /* FancyCalendarView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FancyCalendarView.xcdatamodel; sourceTree = "<group>"; };
 		CE553D331C6E2E2900E654E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +62,20 @@
 		CE553D481C6E2E2A00E654E5 /* FancyCalendarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyCalendarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE553D4C1C6E2E2A00E654E5 /* FancyCalendarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyCalendarViewUITests.m; sourceTree = "<group>"; };
 		CE553D4E1C6E2E2A00E654E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE553D5D1C6E2EB500E654E5 /* Calendar_Day_View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Calendar_Day_View.xib; sourceTree = "<group>"; };
+		CE553D651C6E332100E654E5 /* FCVCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVCalendarViewController.h; sourceTree = "<group>"; };
+		CE553D661C6E332100E654E5 /* FCVCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVCalendarViewController.m; sourceTree = "<group>"; };
+		CE553D691C6E347000E654E5 /* FCVCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVCalendarDayView.h; sourceTree = "<group>"; };
+		CE553D6A1C6E347000E654E5 /* FCVCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVCalendarDayView.m; sourceTree = "<group>"; };
+		CE553D6C1C6E347000E654E5 /* FCVCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVCalendarMonthView.m; sourceTree = "<group>"; };
+		CE553D701C6E36A600E654E5 /* FCVCalendarMonthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCVCalendarMonthView.h; sourceTree = "<group>"; };
+		CE83C8531C750EBD003A2889 /* FCVCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVCalendarView.h; sourceTree = "<group>"; };
+		CE83C8541C750EBD003A2889 /* FCVCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVCalendarView.m; sourceTree = "<group>"; };
+		CEA89F581C6E55EE00A1BA1A /* Event_View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Event_View.xib; sourceTree = "<group>"; };
+		CEA89F5A1C6E5AEF00A1BA1A /* FCVEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVEventView.h; sourceTree = "<group>"; };
+		CEA89F5B1C6E5AEF00A1BA1A /* FCVEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVEventView.m; sourceTree = "<group>"; };
+		CEC3272D1C72746900CED2C9 /* FCVDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCVDayModel.h; sourceTree = "<group>"; };
+		CEC3272E1C72746900CED2C9 /* FCVDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCVDayModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +103,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3967CB1C70D9870051A5BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3967CC1C70D9C20051A5BA /* FCVMonthModel.h */,
+				CE3967CD1C70D9C20051A5BA /* FCVMonthModel.m */,
+				CEC3272D1C72746900CED2C9 /* FCVDayModel.h */,
+				CEC3272E1C72746900CED2C9 /* FCVDayModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		CE553D181C6E2E2900E654E5 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +139,15 @@
 			children = (
 				CE553D271C6E2E2900E654E5 /* AppDelegate.h */,
 				CE553D281C6E2E2900E654E5 /* AppDelegate.m */,
-				CE553D2A1C6E2E2900E654E5 /* ViewController.h */,
-				CE553D2B1C6E2E2900E654E5 /* ViewController.m */,
-				CE553D2D1C6E2E2900E654E5 /* Main.storyboard */,
+				CE3967C31C70B9130051A5BA /* FCVConstants.h */,
+				CE83C84F1C7501DE003A2889 /* Delegates */,
+				CE553D611C6E325A00E654E5 /* Controllers */,
+				CE553D621C6E32F000E654E5 /* Views */,
+				CE3967CB1C70D9870051A5BA /* Model */,
 				CE553D331C6E2E2900E654E5 /* Assets.xcassets */,
-				CE553D351C6E2E2900E654E5 /* LaunchScreen.storyboard */,
 				CE553D381C6E2E2900E654E5 /* Info.plist */,
 				CE553D301C6E2E2900E654E5 /* FancyCalendarView.xcdatamodeld */,
+				CE553D5A1C6E2E6200E654E5 /* UserInterface */,
 				CE553D241C6E2E2900E654E5 /* Supporting Files */,
 			);
 			path = FancyCalendarView;
@@ -141,6 +177,64 @@
 				CE553D4E1C6E2E2A00E654E5 /* Info.plist */,
 			);
 			path = FancyCalendarViewUITests;
+			sourceTree = "<group>";
+		};
+		CE553D5A1C6E2E6200E654E5 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CE553D5C1C6E2E8000E654E5 /* Xib */,
+				CE553D5B1C6E2E7100E654E5 /* Storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		CE553D5B1C6E2E7100E654E5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CE553D2D1C6E2E2900E654E5 /* Main.storyboard */,
+				CE553D351C6E2E2900E654E5 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		CE553D5C1C6E2E8000E654E5 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				CE553D5D1C6E2EB500E654E5 /* Calendar_Day_View.xib */,
+				CEA89F581C6E55EE00A1BA1A /* Event_View.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		CE553D611C6E325A00E654E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE553D651C6E332100E654E5 /* FCVCalendarViewController.h */,
+				CE553D661C6E332100E654E5 /* FCVCalendarViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CE553D621C6E32F000E654E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE83C8531C750EBD003A2889 /* FCVCalendarView.h */,
+				CE83C8541C750EBD003A2889 /* FCVCalendarView.m */,
+				CE553D701C6E36A600E654E5 /* FCVCalendarMonthView.h */,
+				CE553D6C1C6E347000E654E5 /* FCVCalendarMonthView.m */,
+				CE553D691C6E347000E654E5 /* FCVCalendarDayView.h */,
+				CE553D6A1C6E347000E654E5 /* FCVCalendarDayView.m */,
+				CEA89F5A1C6E5AEF00A1BA1A /* FCVEventView.h */,
+				CEA89F5B1C6E5AEF00A1BA1A /* FCVEventView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CE83C84F1C7501DE003A2889 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +299,13 @@
 		CE553D191C6E2E2900E654E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FCV;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Peter Schuette";
 				TargetAttributes = {
 					CE553D201C6E2E2900E654E5 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 384WS8QBWW;
 					};
 					CE553D3C1C6E2E2900E654E5 = {
 						CreatedOnToolsVersion = 7.2;
@@ -249,6 +345,8 @@
 				CE553D371C6E2E2900E654E5 /* LaunchScreen.storyboard in Resources */,
 				CE553D341C6E2E2900E654E5 /* Assets.xcassets in Resources */,
 				CE553D2F1C6E2E2900E654E5 /* Main.storyboard in Resources */,
+				CEA89F591C6E55EE00A1BA1A /* Event_View.xib in Resources */,
+				CE553D5F1C6E2EB500E654E5 /* Calendar_Day_View.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3967CE1C70D9C20051A5BA /* FCVMonthModel.m in Sources */,
+				CE553D6D1C6E347000E654E5 /* FCVCalendarDayView.m in Sources */,
 				CE553D321C6E2E2900E654E5 /* FancyCalendarView.xcdatamodeld in Sources */,
-				CE553D2C1C6E2E2900E654E5 /* ViewController.m in Sources */,
+				CE83C8551C750EBD003A2889 /* FCVCalendarView.m in Sources */,
+				CEC3272F1C72746900CED2C9 /* FCVDayModel.m in Sources */,
 				CE553D291C6E2E2900E654E5 /* AppDelegate.m in Sources */,
+				CE553D6E1C6E347000E654E5 /* FCVCalendarMonthView.m in Sources */,
+				CEA89F5C1C6E5AEF00A1BA1A /* FCVEventView.m in Sources */,
 				CE553D261C6E2E2900E654E5 /* main.m in Sources */,
+				CE553D681C6E332100E654E5 /* FCVCalendarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FancyCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peteschuette.ios.FancyCalendarView;
@@ -426,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FancyCalendarView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.peteschuette.ios.FancyCalendarView;
@@ -500,6 +606,7 @@
 				CE553D531C6E2E2A00E654E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE553D541C6E2E2A00E654E5 /* Build configuration list for PBXNativeTarget "FancyCalendarViewTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +615,7 @@
 				CE553D561C6E2E2A00E654E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE553D571C6E2E2A00E654E5 /* Build configuration list for PBXNativeTarget "FancyCalendarViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +624,7 @@
 				CE553D591C6E2E2A00E654E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
