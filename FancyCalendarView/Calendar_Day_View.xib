@@ -14,25 +14,25 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x39-aB-9mr">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Elu-wK-VFM">
-                            <rect key="frame" x="0.0" y="1" width="600" height="1"/>
+                        <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Elu-wK-VFM">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="1"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="oLi-ZT-bik"/>
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="##" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bB-d0-ahx">
-                            <rect key="frame" x="287" y="4" width="26" height="25"/>
+                            <rect key="frame" x="286" y="3" width="28" height="28"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="25" id="aaR-x6-tBP"/>
-                                <constraint firstAttribute="width" constant="26" id="kok-iB-6Cz"/>
+                                <constraint firstAttribute="height" constant="28" id="aaR-x6-tBP"/>
+                                <constraint firstAttribute="width" constant="28" id="kok-iB-6Cz"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iW9-KS-qRi">
-                            <rect key="frame" x="295" y="31" width="10" height="10"/>
+                            <rect key="frame" x="295" y="33" width="10" height="10"/>
                             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="10" id="B6k-YP-u35"/>
@@ -43,7 +43,7 @@
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="Elu-wK-VFM" secondAttribute="trailing" id="0h1-Bv-U7b"/>
-                        <constraint firstItem="Elu-wK-VFM" firstAttribute="top" secondItem="x39-aB-9mr" secondAttribute="top" constant="1" id="L1X-uo-N0n"/>
+                        <constraint firstItem="Elu-wK-VFM" firstAttribute="top" secondItem="x39-aB-9mr" secondAttribute="top" id="L1X-uo-N0n"/>
                         <constraint firstAttribute="height" constant="50" id="NTm-Rf-oDw"/>
                         <constraint firstItem="3bB-d0-ahx" firstAttribute="centerX" secondItem="x39-aB-9mr" secondAttribute="centerX" id="OGg-dj-ft2"/>
                         <constraint firstItem="Elu-wK-VFM" firstAttribute="top" secondItem="x39-aB-9mr" secondAttribute="top" constant="1" id="RAb-Lg-8qO"/>

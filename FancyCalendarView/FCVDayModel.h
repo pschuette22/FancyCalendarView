@@ -13,15 +13,19 @@
 
 @property (getter=getDate) NSDate* date;
 @property (getter=didLoadEvents) BOOL isLoadingEvents;
-@property (getter=getEvents) NSArray<EKEvent *> *events;
+@property (nonatomic, strong) EKEventStore *eventStore;
+@property (nonatomic, strong) EKCalendar *defaultCalendar;
+@property (nonatomic, strong) NSMutableArray *eventsList;
 
-typedef void (^EventLoadCompletionBlock) (NSError * error, BOOL accessGranted, NSArray<EKEvent *> *events);
+typedef void (^EventLoadCompletionBlock) (NSError * error, BOOL accessGranted, NSMutableArray *events);
 
 -(id) initWithDate:(NSDate*) date;
 
 -(NSInteger) getDayOfMonth;
 -(NSInteger) getDayOfWeek;
 -(NSInteger) getWeekOfMonth;
+-(NSMutableArray *) getEvents;
+
 
 - (void) loadEvents:(EventLoadCompletionBlock) completionBlock;
 

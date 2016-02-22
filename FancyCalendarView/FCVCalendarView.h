@@ -16,6 +16,7 @@
 @optional
 - (void) frameDidChange:(CGRect) frame;
 - (void) selectedDateDayChange: (NSDate *)day;
+- (void) eventsDidChange:(NSMutableArray *)events;
 
 
 @end
@@ -27,26 +28,26 @@
 @property (nonatomic, weak, setter=setDelegate:) id<FCVCalendarViewDelegate> delegate;
 @property (strong, nonatomic) IBOutlet UISwipeGestureRecognizer *swipeRecognizer;
 @property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panRecognizer;
-@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapRecognizer;
+
 @property (strong, nonatomic) FCVCalendarMonthView *previousMonth;
 @property (strong, nonatomic) FCVCalendarMonthView *currentMonth;
 @property (strong, nonatomic) FCVCalendarMonthView *nextMonth;
 @property (strong, nonatomic) FCVCalendarDayView *selectedDayView;;
-@property (strong, nonatomic) FCVDayModel *selectedDayModel;
 
 
 // Gesture recognizers
-- (IBAction)tapDetected:(UITapGestureRecognizer *)sender;
 - (IBAction)swipeDetected:(UISwipeGestureRecognizer *)sender;
 - (IBAction)panDetected:(UIPanGestureRecognizer *)sender;
 
 
 // Class Methods
 - (void) initGestures;
-- (void) setSelectedDate: (NSDate*) date;
-- (void) setTapGestureRecognizer:(UITapGestureRecognizer *)tapGestureRecognizer;
+- (void) setSelectedDate: (NSDate*) date withAnimationDuration: (float) duration;
 - (FCVDayModel*) getSelectedDayModel;
 - (void) showNextMonthWithAnimation:(BOOL) doAnimate withDuration:(float) duration;
 - (void) showPreviousMonthWithAnimation:(BOOL) doAnimate withDuration:(float) duration;
+- (void) didReceiveNotification:(NSNotification*) notification;
+- (CGSize) getContentSize;
+- (NSDate*) getSelectedDate;
 
 @end

@@ -20,5 +20,6 @@
 - (FCVCalendarDayView *) setSelectedDate: (NSDate *) date;
 - (CGSize) getContentSize;
 - (NSDate*) getFirstDateOfMonth;
+- (void) eventsDidUpdate:(FCVDayModel*)dayModel;
 
 @end

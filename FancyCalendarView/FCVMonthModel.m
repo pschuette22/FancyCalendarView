@@ -9,7 +9,9 @@
 #import "FCVMonthModel.h"
 #import "FCVDayModel.h"
 
-@implementation FCVMonthModel
+@implementation FCVMonthModel {
+    NSArray *_events;
+}
 
 
 -(id) initWithDate: (NSDate*) date {
@@ -23,7 +25,7 @@
          */
         NSDateComponents *comp = [gregorian components:(NSCalendarUnitYear | NSCalendarUnitMonth| NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitNanosecond) fromDate: date];
         [comp setDay:1];
-        [comp setHour:1];
+        [comp setHour:0];
         [comp setMinute:0];
         [comp setNanosecond:0];
         
@@ -51,6 +53,8 @@
     
     return self;
 }
+
+
 
 
 

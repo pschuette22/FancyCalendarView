@@ -15,12 +15,17 @@
 @property (weak, nonatomic) IBOutlet UILabel *lbl_date;
 @property (weak, nonatomic) IBOutlet UIView *view_eventsIndicator;
 @property (getter=isSelected) BOOL isSelected;
-
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapGestureRecognizer;
 
 //-(id) initWithFrame:(CGRect)frame withModel:(FCVDayModel*)dayModel;
-- (void) setDayModel:(FCVDayModel *)dayModel;
+- (void) setDayModel:(FCVDayModel *)dayModel ;
 - (FCVDayModel *) getDayModel;
 - (void) setSelected:(BOOL) isSelected;
 - (BOOL) isDate: (NSDate*) date;
+- (void) setEventsIndicator;
+
+// Detect taps on days in the calendar
+- (IBAction) tapDetected:(UITapGestureRecognizer*) sender;
+
 
 @end
